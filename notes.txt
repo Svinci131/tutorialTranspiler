@@ -1,0 +1,12 @@
+//dev.havenondemand.com/apis/speech-recognition#overview
+(mp4 file) =>
+
+ACCEPTS VIDEO: YES
+Input files are truncated after 30 minutes.
+
+
+https://cloudconvert.com/api/convert/webm-to-mp4
+(webm) => mp4
+
+
+curl -X POST http://api.havenondemand.com/1/api/async/recognizespeech/v1 --form "file=@SampleVideo_1280x720_1mb.mp4"/script>
